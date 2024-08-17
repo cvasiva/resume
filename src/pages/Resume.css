@@ -1,0 +1,145 @@
+.inbox-your-resume{
+    line-height: 3.972rem;
+    text-align: center;
+    color: var(--color-white);
+    font-size: 54px;
+    font-family: inter;
+}
+
+.getfont{
+    line-height: 2.972rem;
+    text-align: center;
+    color: var(--color-white);
+    font-size: 38px;
+    font-family: inter;
+}
+
+.dflxfont{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cardaroundflx{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 8%;
+}
+
+.group-child17 {
+    border-radius: 13px;
+    background-color: var(--color-white);
+    border: 1px solid #ffd45c;
+    box-sizing: border-box;
+    width: 30%;
+  }
+
+  .whatsflx{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: row;
+  }
+
+  .whatsfont{
+    color: gray;
+  }
+
+  .inputstyle{
+    background: #fff;
+    border: 1px solid #6FBC4E;
+    border-radius: 4px;
+    height: 35px;
+  }
+
+  .adflx{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .bgget{
+    background: #1C1A4D;
+    width: 100%;
+    padding: 2rem 0rem;
+    height: 100vh;
+    position: relative;
+    margin-top: 5%;
+  }
+
+  .tailored{
+    font-size: 0.85rem;
+    line-height: 1.275rem;
+    font-family: var(--font-open-sans);
+    color: #cbcbcb;
+    text-align: center;
+  }
+
+  .flxfont{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .logoguru{
+    width: 10%;
+  }
+
+  @media (max-width: 1300px) {
+    .bgget{
+        background: #1C1A4D;
+        width: 100%;
+        padding: 2rem 0rem;
+        height: 100%;
+        position: relative;
+        margin-top: 5%;
+      }
+  }
+
+@media (max-width: 768px) {
+    .adflx{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    .logoguru{
+        width: 50%;
+      }
+    .bgget{
+        background: #1C1A4D;
+        width: 100%;
+        padding: 2rem 0rem;
+        height: 100%;
+        position: relative;
+        margin-top: 5%;
+      }
+    .inbox-your-resume{
+        line-height: 1rem;
+        text-align: center;
+        color: var(--color-white);
+        font-size: 20px;
+        font-family: inter;
+    }
+    .cardaroundflx{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        flex-direction: column;
+        margin-top: 8%;
+    }
+    .group-child17 {
+        border-radius: 13px;
+        background-color: var(--color-white);
+        border: 1px solid #ffd45c;
+        box-sizing: border-box;
+        width: 100%;
+      }
+      .whatsflx{
+        display: flex;
+        justify-content: center;
+        gap: 0rem;
+        flex-direction: column;
+      }
+}

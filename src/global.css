@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Gilroy-Bold:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gilroy-Regular:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Thonburi:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-gilroy-regular: Gilroy-Regular;
+  --font-gilroy-bold: Gilroy-Bold;
+  --font-inter: Inter;
+  --font-open-sans: "Open Sans";
+  --font-dm-sans: "DM Sans";
+  --font-thonburi: Thonburi;
+  --font-lato: Lato;
+
+  /* font sizes */
+  --font-size-lgi-4: 1.213rem;
+  --font-size-base-9: 1.056rem;
+  --font-size-smi: 0.813rem;
+
+  /* Colors */
+  --color-whitesmoke-100: #f9fafb;
+  --color-whitesmoke-200: #f2f4f8;
+  --color-gray-100: #fbfbfb;
+  --secondary-500: #1a1c1e;
+  --gray-900: #101828;
+  --color-gray-200: #090909;
+  --color-white: #fff;
+  --color-goldenrod-100: #fbc63b;
+  --color-mediumpurple: #875ab6;
+  --color-midnightblue: #2b0260;
+  --grey: #6c7278;
+  --color-mediumseagreen-100: #1fc76a;
+  --color-darkslategray-100: #2e2e2e;
+  --color-darkslateblue-100: #2c2a64;
+  --color-darkslateblue-200: #1c1a4d;
+
+  /* Paddings */
+  --padding-3xs-5: 0.593rem;
+
+  /* Border radiuses */
+  --br-2xs-5: 10.5px;
+}
