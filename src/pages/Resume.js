@@ -70,11 +70,15 @@ const Resume = () => {
       setErrorMessage("Error: " + error.message);
     }
   };
+  const handlewindow = () => {
+    const paymentUrl = `https://www.resume-guru.in/`;
+    window.location.href = paymentUrl;
+  };
   return (
     <div style={{ height: "100%" }}>
       <div className="desktop-4">
         <div className="desktop-4-inner1">
-          <div className="group-wrapper">
+          <div className="group-wrapper" onClick={handlewindow} style={{cursor:'pointer'}}>
             <div className="group-wrapper">
               <div className="resumeguru">
                 <span className="resumeguru-txt">
@@ -201,7 +205,9 @@ const Resume = () => {
                 </div>
               </div>
               {errorMessage && (
-                <div style={{color:"red"}} className="pt-2">{errorMessage}</div>
+                <div style={{ color: "red" }} className="pt-2">
+                  {errorMessage}
+                </div>
               )}
             </div>
           </div>
